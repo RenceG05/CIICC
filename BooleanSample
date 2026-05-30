@@ -1,0 +1,9 @@
+public class InputSample {
+    public static void main(String[] args) {
+        int c = inout.nextInt();
+        System.out.println(
+            // (booLeanExp)? true: false;
+            ((c%2)==0) ? "even":"odd"
+        );
+    }
+}
