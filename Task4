@@ -10,7 +10,7 @@ public class StringLesson {
 
     public static void main(String[] args) {
 
-        String name = "fluffy";
+        String name = "Base";
 
         String a = "1";
 
@@ -22,17 +22,17 @@ public class StringLesson {
 
         String b = "1";
 
-        String name2 = "fluffy";
+        String name2 = "Pot";
 
         name = null;
 
         name2 = null;
 
-        String name3 = new String("fluffy");
+        String name3 = new String("Plant");
 
         System.out.println(a);
 
-        String word1 = "Stand alone";
+        String word1 = "I'm Lonely";
 
         System.out.println(word1.toUpperCase());
 
@@ -42,7 +42,7 @@ public class StringLesson {
 
         System.out.println(word1);
 
-        String trimSample = " \t \n \t Marc Yim \t \n";
+        String trimSample = " \t \n \t Lwrnce Gls  \t \n";
 
         System.out.println(trimSample.trim());
 
@@ -66,11 +66,11 @@ public class StringLesson {
 
         System.out.println(p);
 
-        StringBuilder sb = new StringBuilder("marco");
+        StringBuilder sb = new StringBuilder("lawrence");
 
-        String nameKo = "marco";
+        String nameKo = "lawrence";
 
-        StringBuilder sb2 = new StringBuilder("ocram");
+        StringBuilder sb2 = new StringBuilder("encerwal");
 
         System.out.println(sb.toString().equals(sb2.reverse().toString()));
 
