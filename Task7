@@ -37,7 +37,6 @@ public class Task7 {
         return a * b;
     }
 
-    // Method 4: Division with return type double
     public static double divide(double a, double b) {
         return a / b;
     }
