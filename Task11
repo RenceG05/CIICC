@@ -1,0 +1,41 @@
+public class Task11 {
+    public static void main(String[] args) {
+        Book book1 = new Book("Harry Potter and the Philosopher Stone", "J.K Rowling", 1997, 30.99);
+        Book book2 = new Book("The Invisible Life of Addie LaRue", "V.E. Schweb", 2020, 26.99);
+        Book book3 = new Book("If He Had Been With Me", "Naura Nowlin", 2013, 10.99);
+
+        System.out.println("Book 1:");
+        System.out.println(book1);
+        System.out.println(); 
+
+        System.out.println("Book 2:");
+        System.out.println(book2);
+        System.out.println();
+
+        System.out.println("Book 3:");
+        System.out.println(book3);
+    }
+}
+
+class Book {
+    private String title;
+    private String author;
+    private int yearPublished;
+    private double price;
+
+    public Book(String title, String author, int yearPublished, double price) {
+        this.title = title;
+        this.author = author;
+        this.yearPublished = yearPublished;
+        this.price = price;
+    }
+
+    @Override
+    public String toString() {
+        return "Title: \"" + title + "\"\n" +
+               "Author: \"" + author + "\"\n" +
+               "Year Published: " + yearPublished + "\n" +
+               "Price: $" + price;
+    }
+}
+
